@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title> tODOmvc</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+</head>
+<body>
+        <h1>todos</h1>
+        <section class="todomvc" id="todomvc">
+
+                <header class="header">
+                        <input type="text" class="typebox" id='idea' placeholder="what needs to be done?"/>
+                       
+                        <button type="add" value="add" class="btn-add" onclick="AddItem()">Add</button>
+                        <button type="delete" value="delete" class="btn-delete" onclick="DeleteItem()">Delete</button>
+                </header>
+
+                <section class="main">
+                        <ul class="todo-list" id="list">
+                                        
+                        </ul>
+                </section>
+        </section>
+
+        <footer class="underbox">
+                <p>Double click to edit a todo</p>
+                <p>Writen by Elnaz Nasiri</p>
+                <p>Part of TodoMVC</p>
+        </footer>
+
+        <script src="todo.js"></script>
+</body>
+
+</html>
